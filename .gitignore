@@ -1,0 +1,48 @@
+# LaTeX intermediate and auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Temporary files
+*.tmp
+*.bak
+*.sav
+*.swp
+*.backup
+
+# Editor-specific files
+# For TeXworks
+*.pdfsync
+# For Kile
+*.kilepr
+# For TeXstudio
+*.texstudio
+# For VSCode
+.vscode/
+*.code-workspace
+
+# Other LaTeX build tools
+*.run.xml
+*.dvi
+*.ps
+*.snm
+*.nav
+*.vrb
+*.nav
+
+# Output directory if you're using an automated build system
+output/
+build/
+bin/
+
+# User-specific files or directories
+*.DS_Store
+Thumbs.db

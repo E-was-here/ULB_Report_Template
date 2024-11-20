@@ -1,0 +1,57 @@
+\documentclass[10pt,a4paper]{ULBreport}
+\usepackage[utf8]{inputenc}
+\sceau{pic/official_logos/sceauULB.png}
+\graphicspath{ {./pic/} }
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{color} 
+\usepackage{setspace} 
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage{biblatex}
+\usepackage{floatrow}
+\usepackage{subcaption} 
+\usepackage{siunitx}
+\usepackage[many]{tcolorbox}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fancyvrb}
+
+\usepackage{xstring}
+\usepackage{etoolbox}
+
+% Colors
+
+
+
+\begin{document} 
+
+
+	\titleULB{
+	title={TITLE},
+    studies={STUDIES},
+    course ={COURSE},
+    author={\textit{Authors :} \\ Author 1 \\ Author 2 },
+    date={\textbf{Academic year :} \\ 20XX - 20XX},
+    teacher={\textit{Professor : } \\ PROFESSOR \\\textit{Assistant : } \\ ASSISTANT },
+    logo={pic/official_logos/logos.jpg},
+    manyAuthor
+	}
+
+%\listoftables % ToC for tables
+
+%\listoffigures % ToC for figures
+
+\include{src/introduction.tex}
+
+%\printglossary
+
+%\printglossary[type=\acronymtype]
+
+%Bibliography
+%\nocite{*}
+%\printbibliography[type=article,title=Articles]
+
+\end{document}	
