@@ -38,6 +38,7 @@
 %Chapter form
 \RequirePackage[Bjornstrup]{fncychap}
 %Picture package
+\usepackage{subcaption}
 \RequirePackage{graphicx}
 \RequirePackage{textcomp}
 \RequirePackage{eurosym}
